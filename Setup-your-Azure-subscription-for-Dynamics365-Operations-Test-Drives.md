@@ -29,20 +29,7 @@
 
 ![](https://github.com/Azure/AzureTestDrive/blob/master/AzureTestDriveImages/SetupSub6.jpg)
 
-4. Given, we’re using the application to deploy to the subscription, we need to add the application as a contributor on the subscription. The instructions for these are as below:
-      *    Navigate https://portal.azure.com
-      *    Navigate to the subscriptions blade and select the appropriate subscription.
-      *    Click on Access Control (IAM)
-      *    Hit + Add in the new blade.
-      *    Set the role as Contributor.
-      *    Select the AAD application to assign the role. 
-      *    Click on Save.
-      
-![](https://github.com/Azure/AzureTestDrive/blob/master/AzureTestDriveImages/SetupSub8.jpg)
-
-![](https://github.com/Azure/AzureTestDrive/blob/master/AzureTestDriveImages/SetupSub9.jpg)
-
-5. Now we need to add the above app to Dynamics 365 for operations in order to enable the app to manage users
+4. Now we need to add the above app to Dynamics 365 for operations in order to enable the app to manage users
       *    Navigate to your Dynamics 365 for Operations instance.
       *    Click on the Hamburger menu at the left top corner.
       *    Click on System Administration.
