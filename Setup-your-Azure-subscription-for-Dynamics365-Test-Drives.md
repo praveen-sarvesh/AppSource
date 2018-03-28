@@ -52,17 +52,3 @@
 ![](https://github.com/Microsoft/AppSource/blob/master/Images/Financials/SetupAzureFinancialsAADPowerShell.png)
         
 ![](https://github.com/Microsoft/AppSource/blob/master/Images/Financials/SetupAzureFinancialsAADPowerShell2.PNG)
-
-5. Given, we’re using the application to deploy to the subscription, we need to add the application as a contributor on the subscription. The instructions for these are as below:
-      *    Navigate https://portal.azure.com
-      *    Navigate to the subscriptions blade and select the appropriate subscription.
-      *    Click on Access Control (IAM)
-      *    Hit + Add in the new blade.
-      *    Set the role as Contributor.
-      *    Select the AAD application to assign the role. 
-      *    Click on Save.
-      
-![](https://github.com/Azure/AzureTestDrive/blob/master/AzureTestDriveImages/SetupSub8.jpg)
-
-![](https://github.com/Azure/AzureTestDrive/blob/master/AzureTestDriveImages/SetupSub9.jpg)
-
