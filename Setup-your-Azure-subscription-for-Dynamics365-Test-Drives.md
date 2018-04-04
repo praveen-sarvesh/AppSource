@@ -27,8 +27,6 @@
       *    Click Add followed by Select an API
       *    Find Microsoft Graph from the available list of API's and press Select
       *    Select permissions for: "Read and write directory data", "Read directory data" under Application Permission and press Done.
-      *    Perform the similar action to add permission for Azure Key Vault.
-      *    Click on Add followed by Select an API. Search for Azure Key vault and select. Enable the "Have full access to the Azure Key Vault service" under Delegate permissions and press Done
       *    Click on **"Grant Permissions"** to sync the added/updated permission.
       *    Hit Save.
 
