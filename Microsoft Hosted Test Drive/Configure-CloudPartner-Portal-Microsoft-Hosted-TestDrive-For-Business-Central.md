@@ -8,7 +8,7 @@
 
 5. Grant AppSource permission to provision and deprovision Test Drive users in your tenant using the instructions located [here](https://github.com/Microsoft/AppSource/blob/master/Microsoft%20Hosted%20Test%20Drive/Setup-your-Azure-subscription-for-Dynamics365-Financials-Microsoft-Hosted-Test-Drives.md). In this step you will generate the 'Azure AD App Id' and 'Azure AD App Key' values mentioned below.
 
-6. Provide the following fields in the 'Technical Configuration' section. </br> </br>![](https://github.com/microsoft/AppSource/blob/master/Images/BC_TestDriveConfiguration.JPG)   
+6. Provide the following fields in the 'Technical Configuration' section. **Please add any sample value to Role Name field. ex - dummyrole** </br> </br>![](https://github.com/microsoft/AppSource/blob/master/Images/BC_TestDriveConfiguration.JPG)   
     
     *    **Max Concurrent Test Drives**: Set this field to the number of concurrent users that can have an active Test Drive at any given point of time. Be aware that each user will consume a Dynamics license while their Test Drive is active, so you will need to ensure you have at least this many Dynamics licenses available for Test Drive users. Recommended value of 3-5.
     *    **Test Drive Duration (hours)**: Set this field to the number of hours the users Test Drive will be active for. After this many hours, the user will be deprovisioned from your tenant. Recommended value of 2-24 hours depending on the complexity of your App. The user can always request another Test Drive if they run out of time and want to access the Test Drive again.
@@ -17,7 +17,7 @@
     *    **Azure AD App Id**: ID of the Azure AD App you created in step 7.<br />Example Value: 53852862-a2ae-4e43-9461-faa49650a096
     *    **Azure AD App Key**: Secret for the Azure AD App created in step 7.<br />Example Value: IJUgaIOfq9b9LbUjeQmzNBW4VGn6grr1l/n3aMrnfdk=
     *    **Azure AD Tenant Name**: Provide the name of the Azure Tenant for your Dynamics 365 Instance. Use the format of \<tenantname>.onmicrosoft.com. Example Value: testdrive.onmicrosoft.com
-    *    **Role name**: Provide the name of the custom Dynamics 365 Security Role you have created for Test Drive. This is the role that will be assigned to users during their Test Drive. Example Value: testdriverole
+    *    **Role name**: This field needs to be removed, so please add any sample value for time being. Ex - dummyrole. Test Drive user will get default user permission set assigned on first login in Business Central environment.
     
     
 7. Provide the Marketplace listing details. Click on Language value in Marketplace listing to see further required fields -</br></br> ![](https://github.com/microsoft/AppSource/blob/master/Images/CE_MarketListing.JPG)
